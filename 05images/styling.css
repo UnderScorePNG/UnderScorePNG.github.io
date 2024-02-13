@@ -116,7 +116,7 @@ footer a {
 
 figure.wrapped {
     width: 30%;
-    margin: 2;
+    margin: 0em 0em 0em 2em;
     float: right;
 }
 figure.wrapped img {
