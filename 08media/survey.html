@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the Lagamorph species and the Families of Rabbits, Hares, & Pikas within it.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="author" content="Austin Earls">
+    <title>All About Lagomorphs: Survey</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start of the Page Header -->
+    <header>
+        <img src="images/logo.png" alt="site logo" width="100" height="100">
+        <div>
+            <h1>lag&bull;o&bull;morphs</h1>
+            <p>/ˈlaɡəˌmôrf/</p>
+        </div>
+    </header>
+    <!-- Start of the Page Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="species.html">Species</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+    <!-- Start of the Page Main -->
+    <main>
+        <h1>Tell Us About Your Lagomorph!</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Owner Information</legend>
+                <label>First Name*
+                    <input type="text" name="fname" required>
+                </label>
+                <label>Last Name*
+                    <input type="text" name="lname" required>
+                </label>
+                <label>Phone Number*
+                    <input type="tel" name="phone" required placeholder="987-555-1234">
+                </label>
+                <label>Email Address*
+                    <br>
+                    <input type="email" name="email" required placeholder="johndoe@gmail.com">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>How Many Lagomorphs Do You Have?</legend>
+                <label>
+                    <input type="radio" name="method" value="none">None</label>
+                <label>
+                    <input type="radio" name="method" value="one">One</label>
+                <label>
+                    <input type="radio" name="method" value="two">Two</label>
+                <label>
+                    <input type="radio" name="method" value="three">Three</label>
+                <label>
+                    <input type="radio" name="method" value="four">Four+</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What Lagomorphs Do You Have?</legend>
+                <label>
+                    <input type="checkbox" name="rabbit" value="chosen">Rabbit
+                </label>
+                <label>
+                    <input type="checkbox" name="hare" value="chosen">Hare
+                </label>
+                <label>
+                    <input type="checkbox" name="pika" value="chosen">Pika
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>How Many Years Have You Had Lagomorphs?
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="Bit">Less Than a Year</option>
+                        <option value="Some">1-2 Years</option>
+                        <option value="Big">3-4 Years</option>
+                        <option value="Bigger">5-10 Years</option>
+                        <option value="Biggest">10+ Years</option>
+                    </select>
+                </label>
+            </fieldset>
+            <label>Comments About Your Lagomorphs!
+                <textarea name="comments">Tell Us About Your Rabbit, Pika, or Hare!</textarea>
+            </label>
+
+            <input type="submit" value="Survey Submission">
+        </form>
+    </main>
+    <!-- Start of the Page Footer -->
+    <footer>
+        <p>&copy; 2024 &bull; Austin Earls &bull; <a href="mailto:underscore.png@gmail.com">Email Me</a></p>
+    </footer>
+</body>
+
+</html>
